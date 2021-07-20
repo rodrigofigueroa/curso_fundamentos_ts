@@ -22,3 +22,27 @@ var pic = {
 };
 showPicture(pic);
 showPicture({ title: 'My weeding', date: '12/5/2020', size: PictureLandscape.desktop });
+function createPicture3(conf) {
+    var info = { title: 'Default', date: '10-12-2020' };
+    if (conf.title) {
+        info.title = conf.title;
+    }
+    if (conf.date) {
+        info.date = conf.date;
+    }
+    return info;
+}
+console.log(createPicture3({}));
+console.log(createPicture3({ title: 'My Master', date: '01-2-2021' }));
+var user;
+user = {
+    id: 12,
+    name: 'Lux',
+    isPro: true
+};
+console.log('user', user);
+user.name = 'paparazzi';
+console.log('user', user);
+// user.id = 300 Can't be we use readonly
+// user.id = 300 // error
+console.log('user', user);
