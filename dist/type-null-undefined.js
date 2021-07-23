@@ -1,13 +1,13 @@
 "use strict";
-var oneNull = null;
+let oneNull = null;
 // oneNull = 'all' // Error
-var anotherNull = null;
+let anotherNull = null;
 anotherNull = 'This is a null string';
-var undefinedVariable = undefined;
+let undefinedVariable = undefined;
 // undefinedVariable = '' //Error
-var anotherUndefinedVariable = undefined;
+let anotherUndefinedVariable = undefined;
 anotherUndefinedVariable = 'undefined string';
 // --strictNullChecks
-var strictCheck = '';
+let strictCheck = '';
 // strictCheck = null       // Error
 // strictCheck = undefined  // Error

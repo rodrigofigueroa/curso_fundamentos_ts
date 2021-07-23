@@ -1,28 +1,28 @@
 "use strict";
 // Js Function()
-var createPicture = function (title, date, size) {
-    console.log("Creating Picture: " + title + " date: " + date + " size: " + size);
+const createPicture = (title, date, size) => {
+    console.log(`Creating Picture: ${title} date: ${date} size: ${size}`);
 };
 // createPicture( 'Park', '05-04-2020', '500x500' )
 // Option
-var createPictureOptions = function (title, date, size) {
-    console.log("Creating Picture: " + title + " date: " + date + " size: " + size);
+const createPictureOptions = (title, date, size) => {
+    console.log(`Creating Picture: ${title} date: ${date} size: ${size}`);
 };
 // createPictureOptions( 'Park', '05-04-2020', '500x500' )
 // createPictureOptions( 'Park', '05-04-2020',  )
 // createPictureOptions( 'Park' )
 // createPictureOptions( )
-var createObjectPicture = function (title, date, size) {
-    return { title: title, date: date, size: size };
+const createObjectPicture = (title, date, size) => {
+    return { title, date, size };
 };
 console.log(createObjectPicture('Park', '05-04-2020', '500x500'));
 // return variables
-var createError = function (code, error) {
+const createError = (code, error) => {
     if (error !== 'error') {
-        return "Everything looks great!";
+        return `Everything looks great!`;
     }
     else {
-        throw new Error("Message: " + error + " error code: " + code);
+        throw new Error(`Message: ${error} error code: ${code}`);
     }
 };
 console.log(createError(200, 'ok'));

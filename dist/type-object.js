@@ -1,5 +1,5 @@
 "use strict";
-var user;
+let user;
 user = {};
 user = {
     id: 12.0,
@@ -8,7 +8,7 @@ user = {
 };
 console.log('user', user);
 // console.log('user', user.id ) // Error
-var myUserObj;
+let myUserObj;
 myUserObj = Object;
 myUserObj = {
     id: 12.0,
@@ -16,7 +16,7 @@ myUserObj = {
     userLastName: 'Shadow'
 };
 // 
-var otherObj = {
+let otherObj = {
     other: 'one'
 };
 console.log(otherObj instanceof Object);

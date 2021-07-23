@@ -10,7 +10,7 @@ var PhotoOrientation;
     PhotoOrientation[PhotoOrientation["Square"] = 2] = "Square";
     PhotoOrientation[PhotoOrientation["Panorama"] = 3] = "Panorama";
 })(PhotoOrientation || (PhotoOrientation = {}));
-var landscape = PhotoOrientation.Landscape;
+const landscape = PhotoOrientation.Landscape;
 // console.log(  landscape )
 var PictueOrientation;
 (function (PictueOrientation) {
@@ -35,5 +35,5 @@ var Countries;
     Countries["EEUU"] = "usa";
     Countries["Canada"] = "can";
 })(Countries || (Countries = {}));
-var country = Countries.Canada;
+const country = Countries.Canada;
 console.log(country);

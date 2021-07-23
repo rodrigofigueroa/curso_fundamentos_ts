@@ -1,10 +1,10 @@
 "use strict";
 Object.defineProperty(exports, "__esModule", { value: true });
-var user;
+let user;
 user = [2, 'theStrokes'];
-var user2;
+let user2;
 user2 = [1, 'user2', true];
-var tuple = [];
+let tuple = [];
 tuple.push([1, 'luix']);
 tuple.push([2, 'luix2']);
 tuple.push([3, 'lensQueen']);

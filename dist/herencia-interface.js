@@ -7,17 +7,17 @@ var PictureOrientation;
     PictureOrientation[PictureOrientation["Small"] = 2] = "Small";
     PictureOrientation[PictureOrientation["Desktop"] = 3] = "Desktop";
 })(PictureOrientation || (PictureOrientation = {}));
-var album = {
+let album = {
     id: 1,
     title: 'Meetings',
     description: 'My meetings around the world'
 };
-var picture = {
+const picture = {
     id: 2,
     title: 'My Little Cat',
     size: PictureOrientation.Landscape
 };
-var myNePicture = {
+let myNePicture = {
     id: 3,
     title: 'Other one',
     size: PictureOrientation.Portrait

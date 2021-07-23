@@ -11,7 +11,7 @@ showInfo2({ id: 12, nameUser: 'rod' });
 //     checkVoid = null
 //     checkVoid = undefined
 function erros(id, message) {
-    throw new Error(message + " id: " + id);
+    throw new Error(`${message} id: ${id}`);
 }
 try {
     erros(404, 'Not Found :(');

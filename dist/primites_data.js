@@ -1,16 +1,20 @@
 "use strict";
 // number
-var phone;
+let phone;
 phone = 1;
 // phone = ''
-var phoneNumbe = 55454554;
+let phoneNumbe = 55454554;
 // phoneNumbe = ''
-var hex = 0xF00D;
+let hex = 0xF00D;
 // hex = true
-var bol = true;
+let bol = true;
 bol = false;
 // bol = 0
-var userName = 'Rod';
-var info;
-info = "\n  userName: " + userName + "\n  isPro: " + bol + "\n  phone: " + phoneNumbe + "\n";
+let userName = 'Rod';
+let info;
+info = `
+  userName: ${userName}
+  isPro: ${bol}
+  phone: ${phoneNumbe}
+`;
 console.log(info);

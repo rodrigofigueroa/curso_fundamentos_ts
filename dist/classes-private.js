@@ -33,9 +33,9 @@ album.addPictures(picture);
 album.addPictures(picture2);
 console.log('album', album);
 // public
-picture2.id = 200;
-picture2.title = 'Another Title';
-album.id = 250;
-album.title = 'ANother xD album';
+// picture2.id = 200  // Error Private
+// picture2.title = 'Another Title' // Error Private
+// album.id = 250 // Error Private
+// album.title = 'ANother xD album' // Error Private
 console.log('album', album);
 console.log('album', picture2);

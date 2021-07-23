@@ -9,13 +9,13 @@ var PictureLandscape;
 console.log(PictureLandscape);
 // Withour Interface
 function showPicture(picture) {
-    console.log("title: " + picture.title + ", date: " + picture.date + "  Size: " + picture.size);
+    console.log(`title: ${picture.title}, date: ${picture.date}  Size: ${picture.size}`);
 }
 // Function with Interface
 function showPictureWithInterface(picture) {
-    console.log("title: " + picture.title + ", date: " + picture.date + "  Size: " + picture.size);
+    console.log(`title: ${picture.title}, date: ${picture.date}  Size: ${picture.size}`);
 }
-var pic = {
+const pic = {
     title: 'Brithdays',
     date: '15/24/2020',
     size: PictureLandscape.small
@@ -23,7 +23,7 @@ var pic = {
 showPicture(pic);
 showPicture({ title: 'My weeding', date: '12/5/2020', size: PictureLandscape.desktop });
 function createPicture3(conf) {
-    var info = { title: 'Default', date: '10-12-2020' };
+    const info = { title: 'Default', date: '10-12-2020' };
     if (conf.title) {
         info.title = conf.title;
     }
@@ -34,7 +34,7 @@ function createPicture3(conf) {
 }
 console.log(createPicture3({}));
 console.log(createPicture3({ title: 'My Master', date: '01-2-2021' }));
-var user;
+let user;
 user = {
     id: 12,
     name: 'Lux',
